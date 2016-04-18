@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleThreadingDemo", "SimpleThreadingDemo\SimpleThreadingDemo.csproj", "{57C47B92-5EB7-4FA5-BA3D-29A9F4693173}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleInstance", "SingleInstance\SingleInstance.csproj", "{B9FD3923-256D-44AF-B7E7-748FA3C2801C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolDemo", "ThreadPoolDemo\ThreadPoolDemo.csproj", "{72E019F8-B47E-47E3-A040-CE4BA42E21A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{57C47B92-5EB7-4FA5-BA3D-29A9F4693173}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57C47B92-5EB7-4FA5-BA3D-29A9F4693173}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57C47B92-5EB7-4FA5-BA3D-29A9F4693173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9FD3923-256D-44AF-B7E7-748FA3C2801C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FD3923-256D-44AF-B7E7-748FA3C2801C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FD3923-256D-44AF-B7E7-748FA3C2801C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FD3923-256D-44AF-B7E7-748FA3C2801C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E019F8-B47E-47E3-A040-CE4BA42E21A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E019F8-B47E-47E3-A040-CE4BA42E21A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E019F8-B47E-47E3-A040-CE4BA42E21A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E019F8-B47E-47E3-A040-CE4BA42E21A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
