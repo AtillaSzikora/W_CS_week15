@@ -13,11 +13,22 @@ If you encounter a problem completing an exercise, the completed projects are av
 Note that some of the work items are executed on different threads.
 */
 
+using System;
+using System.Threading;
+
 namespace ThreadPoolDemo {
 	class ThreadPoolDemo {
 
-		static void Main (string[] args) {
+		static void Main(string[] args) {
+			WaitCallback callback = new WaitCallback(ShowMyText);
+			ThreadPool.QueueUserWorkItem(callback, "Hello");
+			ThreadPool.QueueUserWorkItem(callback, "Hi");
+			ThreadPool.QueueUserWorkItem(callback, "Heya");
+			ThreadPool.QueueUserWorkItem(callback, "Goodbye");
+			Console.Read(); }
 
-		}
+		static void ShowMyText(object state) {
+			string myText = (string)state;
+			Console.WriteLine("Thread: {0} - {1}", Thread.CurrentThread.ManagedThreadId, myText); }
 	}
 }
