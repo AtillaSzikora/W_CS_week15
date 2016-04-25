@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolDemo", "ThreadPoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputValidator", "InputValidator\InputValidator.csproj", "{096D150C-1981-4746-ADF7-0680A029C197}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTF7Translator", "UTF7Translator\UTF7Translator.csproj", "{F4296198-534A-4CF6-8F1B-6D7E84AD6E5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{096D150C-1981-4746-ADF7-0680A029C197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{096D150C-1981-4746-ADF7-0680A029C197}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{096D150C-1981-4746-ADF7-0680A029C197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4296198-534A-4CF6-8F1B-6D7E84AD6E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4296198-534A-4CF6-8F1B-6D7E84AD6E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4296198-534A-4CF6-8F1B-6D7E84AD6E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4296198-534A-4CF6-8F1B-6D7E84AD6E5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
